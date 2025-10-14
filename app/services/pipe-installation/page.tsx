@@ -140,7 +140,7 @@ export default function PipeInstallationPage() {
             </p>
             <Button size="lg" className="cta-button">
               <Phone className="h-5 w-5 mr-2" />
-              Call for Free Quote: (555) 123-PIPE
+              Call for Free Quote: (585) 507-8992
             </Button>
           </div>
         </section>

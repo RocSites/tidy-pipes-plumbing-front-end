@@ -7,7 +7,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Professional Leak Detection Services | Advanced Technology | Tidy Pipes Plumbing",
   description:
-    "Advanced leak detection services using thermal imaging, acoustic detection, and video inspection. Find hidden leaks before they cause damage. Licensed plumbers with non-invasive technology. Call (555) 123-PIPE.",
+    "Advanced leak detection services using thermal imaging, acoustic detection, and video inspection. Find hidden leaks before they cause damage. Licensed plumbers with non-invasive technology. Call (585) 507-8992.",
   keywords: [
     "leak detection",
     "water leak detection",
@@ -196,7 +196,7 @@ export default function LeakDetectionPage() {
             </p>
             <Button size="lg" className="cta-button">
               <Phone className="h-5 w-5 mr-2" />
-              Schedule Inspection: (555) 123-PIPE
+              Schedule Inspection: (585) 507-8992
             </Button>
           </div>
         </section>

@@ -14,20 +14,22 @@ export function HeroSection() {
               From emergency repairs to complete installations, Tidy Pipes Plumbing delivers reliable, expert service to
               keep your home running smoothly. Licensed, insured, and available 24/7.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button size="lg" className="bg-primary text-primary-foreground hover:bg-secondary text-lg px-8 py-4">
-                <Phone className="mr-2 h-5 w-5" />
-                Call Now: (555) 123-PIPE
-              </Button>
+            <div className="flex flex-col sm:flex-row gap-4 mb-8 justify-center items-center">
+              <a href="tel:5855078992">
+                <Button size="lg" className="bg-accent text-accent-foreground hover:bg-secondary text-lg px-8 py-4">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Call Us: (585) 507-8992
+                </Button>
+              </a>
               <Button
                 variant="outline"
                 size="lg"
-                className="text-lg px-8 py-4 border-accent-foreground/20 text-accent-foreground hover:bg-accent-foreground/10 bg-transparent"
+                className="text-lg px-8 py-4 border-accent-foreground/20 text-accent-foreground hover:bg-accent-foreground/10 bg-primary"
               >
                 Get Free Quote
               </Button>
             </div>
-            <div className="flex flex-wrap gap-6 text-sm text-accent-foreground/70">
+            <div className="flex flex-wrap gap-6 text-sm text-[black] justify-center">
               <div className="flex items-center">
                 <Clock className="h-4 w-4 mr-2" />
                 24/7 Emergency Service

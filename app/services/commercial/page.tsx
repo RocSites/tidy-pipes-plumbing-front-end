@@ -174,7 +174,7 @@ export default function CommercialPage() {
             </p>
             <Button size="lg" className="cta-button">
               <Phone className="h-5 w-5 mr-2" />
-              Commercial Hotline: (555) 123-PIPE
+              Commercial Hotline: (585) 507-8992
             </Button>
           </div>
         </section>

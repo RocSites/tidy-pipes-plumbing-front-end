@@ -7,9 +7,9 @@ import { Footer } from "@/components/footer"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contact Tidy Pipes Plumbing | 24/7 Emergency Service | (555) 123-PIPE",
+  title: "Contact Tidy Pipes Plumbing | 24/7 Emergency Service | (585) 507-8992",
   description:
-    "Contact Tidy Pipes Plumbing for reliable plumbing services. Available 24/7 for emergencies. Call (555) 123-PIPE or visit our office. Free estimates and fast response times.",
+    "Contact Tidy Pipes Plumbing for reliable plumbing services. Available 24/7 for emergencies. Call (585) 507-8992 or visit our office. Free estimates and fast response times.",
   keywords:
     "contact plumber, emergency plumbing service, plumbing company near me, 24/7 plumber, plumbing estimates, local plumber contact",
   openGraph: {
@@ -45,7 +45,7 @@ export default function ContactPage() {
                 <Phone className="h-8 w-8 text-primary" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Call Us Now</h3>
-              <p className="text-2xl font-bold text-primary mb-2">(555) 123-PIPE</p>
+              <p className="text-2xl font-bold text-primary mb-2">(585) 507-8992</p>
               <p className="text-muted-foreground">24/7 Emergency Service</p>
               <p className="text-sm text-muted-foreground mt-2">Average response time: 30 minutes</p>
             </div>

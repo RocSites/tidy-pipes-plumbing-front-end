@@ -12,7 +12,7 @@ export function Footer() {
             </p>
             <div className="flex items-center text-sm">
               <Phone className="h-4 w-4 mr-2" />
-              <span>24/7 Emergency: (555) 123-PIPE</span>
+              <span>24/7 Emergency: (585) 507-8992</span>
             </div>
           </div>
 

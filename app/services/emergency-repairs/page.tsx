@@ -7,7 +7,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "24/7 Emergency Plumbing Repairs | Tidy Pipes Plumbing",
   description:
-    "Emergency plumbing repairs available 24/7. Fast response for burst pipes, severe leaks, and urgent plumbing emergencies. Licensed plumbers with 30-minute response time. Call (555) 123-PIPE.",
+    "Emergency plumbing repairs available 24/7. Fast response for burst pipes, severe leaks, and urgent plumbing emergencies. Licensed plumbers with 30-minute response time. Call (585) 507-8992.",
   keywords: [
     "emergency plumber",
     "24/7 plumbing",
@@ -55,7 +55,7 @@ export default function EmergencyRepairsPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="cta-button">
                   <Phone className="h-5 w-5 mr-2" />
-                  Call Now: (555) 123-PIPE
+                  Call Now: (585) 507-8992
                 </Button>
                 <Button
                   size="lg"
@@ -156,7 +156,7 @@ export default function EmergencyRepairsPage() {
             </p>
             <Button size="lg" className="cta-button">
               <Phone className="h-5 w-5 mr-2" />
-              Emergency Hotline: (555) 123-PIPE
+              Emergency Hotline: (585) 507-8992
             </Button>
           </div>
         </section>

@@ -7,13 +7,18 @@ import { Footer } from "@/components/footer"
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <>
       <Header />
-      <HeroSection />
-      <ServicesSection />
-      <AboutSection />
-      <ContactSection />
+      <main className="bg-white">
+        <div className="px-4 sm:px-6 lg:px-8 py-10 sm:py-16 lg:py-20">
+          <HeroSection />
+          <ServicesSection />
+          <AboutSection />
+          <ContactSection />
+        </div>
+      </main>
+
       <Footer />
-    </main>
+    </>
   )
 }

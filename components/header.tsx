@@ -63,7 +63,7 @@ export function Header() {
             <div className="flex items-center space-x-4 text-sm text-accent-foreground/80">
               <div className="flex items-center">
                 <Phone className="h-4 w-4 mr-1" />
-                <span>(555) 123-PIPE</span>
+                <span>(585) 507-8992</span>
               </div>
             </div>
           </nav>
@@ -124,7 +124,7 @@ export function Header() {
               </Link>
               <div className="flex items-center text-sm text-accent-foreground/80">
                 <Phone className="h-4 w-4 mr-1" />
-                <span>(555) 123-PIPE</span>
+                <span>(585) 507-8992</span>
               </div>
               <Button className="cta-button w-full">Emergency Service</Button>
             </nav>

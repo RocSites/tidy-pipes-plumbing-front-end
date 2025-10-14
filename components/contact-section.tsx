@@ -5,10 +5,10 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react"
 
 export function ContactSection() {
   return (
-    <section id="contact" className="section-padding bg-muted/30">
+    <section id="contact" className="section-padding bg-muted/30 mt-[4em]">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-balance mb-4">Get In Touch</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-balance mb-4 mt-[4em]">Get In Touch</h2>
           <p className="text-xl text-muted-foreground text-pretty max-w-2xl mx-auto">
             Ready to solve your plumbing problems? Contact us today for fast, reliable service.
           </p>
@@ -25,7 +25,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Phone</h4>
-                  <p className="text-muted-foreground">(555) 123-PIPE</p>
+                  <p className="text-muted-foreground">(585) 507-8992</p>
                   <p className="text-sm text-muted-foreground">24/7 Emergency Line</p>
                 </div>
               </div>

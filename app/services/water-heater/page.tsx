@@ -174,7 +174,7 @@ export default function WaterHeaterPage() {
             </p>
             <Button size="lg" className="cta-button">
               <Phone className="h-5 w-5 mr-2" />
-              Call Now: (555) 123-PIPE
+              Call Now: (585) 507-8992
             </Button>
           </div>
         </section>

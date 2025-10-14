@@ -9,7 +9,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "Tidy Pipes Plumbing - Professional Plumbing Services | Licensed Plumbers",
   description:
-    "Expert plumbing services in your area. 24/7 emergency repairs, leak detection, pipe installation, water heater service. Licensed, insured, and trusted by the community. Call (555) 123-PIPE.",
+    "Expert plumbing services in your area. 24/7 emergency repairs, leak detection, pipe installation, water heater service. Licensed, insured, and trusted by the community. Call (585) 507-8992.",
   keywords: [
     "plumbing services",
     "emergency plumber",
@@ -93,7 +93,7 @@ export default function RootLayout({
               description:
                 "Professional plumbing services including emergency repairs, leak detection, pipe installation, and water heater service. Licensed and insured plumbers serving residential and commercial customers.",
               url: "https://tidypipesplumbing.com",
-              telephone: "(555) 123-PIPE",
+              telephone: "(585) 507-8992",
               email: "info@tidypipesplumbing.com",
               address: {
                 "@type": "PostalAddress",

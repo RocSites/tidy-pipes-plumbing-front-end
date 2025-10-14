@@ -241,7 +241,7 @@ export default function AboutPage() {
             </p>
             <Button size="lg" className="cta-button">
               <Phone className="h-5 w-5 mr-2" />
-              Call Today: (555) 123-PIPE
+              Call Today: (585) 507-8992
             </Button>
           </div>
         </section>

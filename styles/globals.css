@@ -72,7 +72,21 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(0.269 0 0);
   --sidebar-ring: oklch(0.439 0 0);
+
+  
 }
+
+@layer utilities {
+  @keyframes bgDrift {
+    0% {
+      transform: translateY(0) translateX(0);
+    }
+    100% {
+      transform: translateY(-140px) translateX(-60px);
+    }
+  }
+}
+
 
 @theme inline {
   --font-sans: var(--font-geist-sans);

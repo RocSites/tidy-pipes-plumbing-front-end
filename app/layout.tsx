@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     siteName: "Tidy Pipes Plumbing",
     images: [
       {
-        url: "/images/tidy-pipes-og-image.jpg",
+        url: "/images/tidy-pipes-og-image.png",
         width: 1200,
         height: 630,
         alt: "Tidy Pipes Plumbing - Professional Plumbing Services",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     title: "Tidy Pipes Plumbing - Professional Plumbing Services",
     description:
       "Expert plumbing services with emergency repairs. Licensed, insured, and trusted.",
-    images: ["/images/tidy-pipes-og-image.jpg"],
+    images: ["/images/tidy-pipes-og-image.png"],
   },
   robots: {
     index: true,

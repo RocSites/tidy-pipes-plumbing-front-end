@@ -8,6 +8,10 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Tidy Pipes Plumbing - Professional Plumbing Services | Licensed Plumbers",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
   description:
     "Expert plumbing services in your area. Emergency repairs, leak detection, pipe installation, water heater service. Licensed, insured, and trusted by the community. Call (585) 507-8992.",
   keywords: [

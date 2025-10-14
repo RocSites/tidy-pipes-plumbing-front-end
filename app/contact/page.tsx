@@ -7,15 +7,15 @@ import { Footer } from "@/components/footer"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contact Tidy Pipes Plumbing | 24/7 Emergency Service | (585) 507-8992",
+  title: "Contact Tidy Pipes Plumbing |  Emergency Service | (585) 507-8992",
   description:
-    "Contact Tidy Pipes Plumbing for reliable plumbing services. Available 24/7 for emergencies. Call (585) 507-8992 or visit our office. Free estimates and fast response times.",
+    "Contact Tidy Pipes Plumbing for reliable plumbing services. Available  for emergencies. Call (585) 507-8992 or visit our office. Free estimates and fast response times.",
   keywords:
-    "contact plumber, emergency plumbing service, plumbing company near me, 24/7 plumber, plumbing estimates, local plumber contact",
+    "contact plumber, emergency plumbing service, plumbing company near me,  plumber, plumbing estimates, local plumber contact",
   openGraph: {
-    title: "Contact Tidy Pipes Plumbing | 24/7 Emergency Service",
+    title: "Contact Tidy Pipes Plumbing |  Emergency Service",
     description:
-      "Get in touch with Tidy Pipes Plumbing for all your plumbing needs. Emergency service available 24/7. Call now for fast, reliable service.",
+      "Get in touch with Tidy Pipes Plumbing for all your plumbing needs. Emergency service available . Call now for fast, reliable service.",
     type: "website",
   },
 }
@@ -30,7 +30,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl lg:text-5xl font-bold text-balance mb-4">Contact Tidy Pipes Plumbing</h1>
           <p className="text-xl text-accent-foreground/80 text-pretty max-w-2xl mx-auto">
-            Ready to solve your plumbing problems? We're here to help 24/7 with fast, reliable service.
+            Ready to solve your plumbing problems? We're here to help  with fast, reliable service.
           </p>
         </div>
       </section>
@@ -46,7 +46,7 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-semibold mb-2">Call Us Now</h3>
               <p className="text-2xl font-bold text-primary mb-2">(585) 507-8992</p>
-              <p className="text-muted-foreground">24/7 Emergency Service</p>
+              <p className="text-muted-foreground"> Emergency Service</p>
               <p className="text-sm text-muted-foreground mt-2">Average response time: 30 minutes</p>
             </div>
 
@@ -96,7 +96,7 @@ export default function ContactPage() {
                       <p>
                         <strong>Sunday:</strong> Emergency calls only
                       </p>
-                      <p className="text-primary font-semibold mt-3">Emergency service available 24/7</p>
+                      <p className="text-primary font-semibold mt-3">Emergency service available </p>
                     </div>
                   </div>
                 </div>

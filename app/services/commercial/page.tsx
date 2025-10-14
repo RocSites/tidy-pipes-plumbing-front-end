@@ -126,7 +126,7 @@ export default function CommercialPage() {
                     <CheckCircle className="h-5 w-5 text-primary mt-1 mr-3" />
                     <div>
                       <h3 className="font-semibold mb-2">Emergency Response</h3>
-                      <p className="text-muted-foreground">24/7 emergency service for critical business needs</p>
+                      <p className="text-muted-foreground"> emergency service for critical business needs</p>
                     </div>
                   </div>
                   <div className="flex items-start">

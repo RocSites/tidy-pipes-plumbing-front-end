@@ -1,10 +1,13 @@
 "use client"
 
-import { useMemo } from "react"
+import { useEffect, useState } from "react"
 import { Bath, ShowerHead, Droplets, Wrench } from "lucide-react"
 
 /**
- * Decorative plumbing icon grid — shuffled once on mount.
+ * Decorative plumbing icon grid
+ * - Randomized only on client (prevents hydration mismatch)
+ * - Uniform icon size
+ * - Slight random rotation
  */
 export function BackgroundIconGrid({
   className = "",
@@ -14,23 +17,30 @@ export function BackgroundIconGrid({
   total?: number
 }) {
   const icons = [Bath, ShowerHead, Droplets, Wrench]
+  const [randomizedIcons, setRandomizedIcons] = useState<{ Icon: any; rotation: number }[]>([])
 
-  // Shuffle icons once (stable after initial render)
-  const shuffledIcons = useMemo(() => {
-    const result = []
-    for (let i = 0; i < total; i++) {
-      const randomIndex = Math.floor(Math.random() * icons.length)
-      result.push(icons[randomIndex])
-    }
-    return result
-  }, [total]) // only recomputes if total changes
+  // Run once on client to randomize after hydration
+  useEffect(() => {
+    const shuffled = Array.from({ length: total }, () => {
+      const Icon = icons[Math.floor(Math.random() * icons.length)]
+      const rotation = Math.floor(Math.random() * 20) - 10
+      return { Icon, rotation }
+    })
+    setRandomizedIcons(shuffled)
+  }, [total])
+
+  // Render nothing until after client mount (avoids mismatch)
+  if (randomizedIcons.length === 0) return null
 
   return (
     <div className={`absolute inset-0 pointer-events-none z-10 ${className}`}>
       <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-10 sm:gap-16 opacity-20">
-        {shuffledIcons.map((Icon, i) => (
+        {randomizedIcons.map(({ Icon, rotation }, i) => (
           <div key={i} className="flex items-center justify-center">
-            <Icon className="h-10 w-10 sm:h-12 sm:w-12 text-slate-400" />
+            <Icon
+              className="h-12 w-12 text-slate-400"
+              style={{ transform: `rotate(${rotation}deg)` }}
+            />
           </div>
         ))}
       </div>

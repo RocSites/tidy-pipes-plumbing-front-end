@@ -7,7 +7,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "About Tidy Pipes Plumbing | Licensed Local Plumbers | 15+ Years Experience",
   description:
-    "Learn about Tidy Pipes Plumbing - your trusted local plumbing experts since 2008. Licensed, insured, and committed to honest, reliable service. 5000+ happy customers, 24/7 emergency service.",
+    "Learn about Tidy Pipes Plumbing - your trusted local plumbing experts since 2008. Licensed, insured, and committed to honest, reliable service. 5000+ happy customers,  emergency service.",
   keywords: [
     "about tidy pipes plumbing",
     "local plumbers",
@@ -78,7 +78,7 @@ export default function AboutPage() {
                     <div className="text-sm text-muted-foreground">Happy Customers</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-primary">24/7</div>
+                    <div className="text-3xl font-bold text-primary"></div>
                     <div className="text-sm text-muted-foreground">Emergency Service</div>
                   </div>
                 </div>

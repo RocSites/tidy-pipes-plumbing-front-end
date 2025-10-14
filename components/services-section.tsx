@@ -4,7 +4,7 @@ const services = [
   {
     icon: AlertTriangle,
     title: "Emergency Repairs",
-    description: "24/7 emergency plumbing services for burst pipes, severe leaks, and urgent repairs.",
+    description: " emergency plumbing services for burst pipes, severe leaks, and urgent repairs.",
   },
   {
     icon: Droplets,

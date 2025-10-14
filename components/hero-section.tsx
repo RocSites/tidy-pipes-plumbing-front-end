@@ -19,19 +19,30 @@ export function HeroSection() {
               Professional Plumbing Services You Can Trust
             </h1>
             <p className="text-lg sm:text-xl text-slate-700 mb-8 leading-relaxed">
-              From emergency repairs to installations, Tidy Pipes Plumbing delivers expert service — 
-              licensed, insured, and available 24/7.
+              From emergency repairs to installations, Tidy Pipes Plumbing delivers expert service —
+              licensed and insured.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8 justify-center lg:justify-start">
-              <Button size="lg" className="bg-primary text-primary-foreground hover:bg-secondary px-8 py-4">
-                <Phone className="mr-2 h-5 w-5" /> Call Now: (555) 123-PIPE
+              <Button
+                asChild
+                size="lg"
+                className="bg-primary text-primary-foreground hover:bg-secondary px-8 py-4"
+              >
+                <a href="tel:5855078992">
+                  <Phone className="mr-2 h-5 w-5" /> Call Us: (585) 507-8992
+                </a>
               </Button>
-              <Button variant="outline" size="lg" className="border-slate-300 text-slate-700 hover:bg-slate-100 px-8 py-4">
+
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-slate-300 text-slate-700 hover:bg-slate-100 px-8 py-4"
+              >
                 Get Free Quote
               </Button>
             </div>
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 text-sm text-slate-600">
-              <div className="flex items-center"><Clock className="h-4 w-4 mr-2" /> 24/7 Emergency Service</div>
+              <div className="flex items-center"><Clock className="h-4 w-4 mr-2" /> Emergency Service</div>
               <div className="flex items-center"><Shield className="h-4 w-4 mr-2" /> Licensed & Insured</div>
             </div>
           </div>

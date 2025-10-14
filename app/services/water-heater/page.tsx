@@ -149,7 +149,7 @@ export default function WaterHeaterPage() {
                     <CheckCircle className="h-5 w-5 text-primary mt-1 mr-3" />
                     <div>
                       <h3 className="font-semibold mb-2">Emergency Repairs</h3>
-                      <p className="text-muted-foreground">24/7 emergency service for water heater failures</p>
+                      <p className="text-muted-foreground"> emergency service for water heater failures</p>
                     </div>
                   </div>
                   <div className="flex items-start">

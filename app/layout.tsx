@@ -9,7 +9,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "Tidy Pipes Plumbing - Professional Plumbing Services | Licensed Plumbers",
   description:
-    "Expert plumbing services in your area. 24/7 emergency repairs, leak detection, pipe installation, water heater service. Licensed, insured, and trusted by the community. Call (585) 507-8992.",
+    "Expert plumbing services in your area. Emergency repairs, leak detection, pipe installation, water heater service. Licensed, insured, and trusted by the community. Call (585) 507-8992.",
   keywords: [
     "plumbing services",
     "emergency plumber",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Tidy Pipes Plumbing - Professional Plumbing Services",
     description:
-      "Expert plumbing services with 24/7 emergency repairs. Licensed, insured, and trusted by the community.",
+      "Expert plumbing services with emergency repairs. Licensed, insured, and trusted by the community.",
     url: "https://tidypipesplumbing.com",
     siteName: "Tidy Pipes Plumbing",
     images: [
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Tidy Pipes Plumbing - Professional Plumbing Services",
-    description: "Expert plumbing services with 24/7 emergency repairs. Licensed, insured, and trusted.",
+    description: "Expert plumbing services with emergency repairs. Licensed, insured, and trusted.",
     images: ["/images/tidy-pipes-og-image.jpg"],
   },
   robots: {
@@ -127,7 +127,7 @@ export default function RootLayout({
                     itemOffered: {
                       "@type": "Service",
                       name: "Emergency Plumbing Repairs",
-                      description: "24/7 emergency plumbing repair services",
+                      description: "emergency plumbing repair services",
                     },
                   },
                   {

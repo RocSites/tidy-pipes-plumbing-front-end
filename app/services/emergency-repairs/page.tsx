@@ -5,12 +5,12 @@ import { AlertTriangle, Clock, Phone, CheckCircle, Shield, Wrench } from "lucide
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "24/7 Emergency Plumbing Repairs | Tidy Pipes Plumbing",
+  title: " Emergency Plumbing Repairs | Tidy Pipes Plumbing",
   description:
-    "Emergency plumbing repairs available 24/7. Fast response for burst pipes, severe leaks, and urgent plumbing emergencies. Licensed plumbers with 30-minute response time. Call (585) 507-8992.",
+    "Emergency plumbing repairs available . Fast response for burst pipes, severe leaks, and urgent plumbing emergencies. Licensed plumbers with 30-minute response time. Call (585) 507-8992.",
   keywords: [
     "emergency plumber",
-    "24/7 plumbing",
+    " plumbing",
     "burst pipe repair",
     "emergency plumbing service",
     "urgent plumbing repairs",
@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     "emergency plumber near me",
   ],
   openGraph: {
-    title: "24/7 Emergency Plumbing Repairs | Tidy Pipes Plumbing",
+    title: " Emergency Plumbing Repairs | Tidy Pipes Plumbing",
     description:
-      "Emergency plumbing repairs available 24/7. Fast response for burst pipes and urgent plumbing emergencies.",
+      "Emergency plumbing repairs available . Fast response for burst pipes and urgent plumbing emergencies.",
     url: "https://tidypipesplumbing.com/services/emergency-repairs",
     images: ["/images/emergency-plumbing-og.jpg"],
   },
@@ -45,7 +45,7 @@ export default function EmergencyRepairsPage() {
                 </div>
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold text-balance mb-6">
-                24/7 Emergency Plumbing Repairs - Fast Response
+                 Emergency Plumbing Repairs
               </h1>
               <p className="text-xl text-accent-foreground/80 text-pretty max-w-3xl mx-auto mb-8">
                 When plumbing disasters strike, every minute counts. Our emergency repair team is available around the
@@ -78,20 +78,11 @@ export default function EmergencyRepairsPage() {
                   Emergency Plumbing Services - Fast Response When You Need It Most
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
-                  Plumbing emergencies don't wait for business hours. That's why Tidy Pipes Plumbing offers 24/7
+                  Plumbing emergencies don't wait for business hours. That's why Tidy Pipes Plumbing offers 
                   emergency services with rapid response times to minimize water damage and get your plumbing system
                   back to normal quickly.
                 </p>
                 <div className="space-y-4">
-                  <div className="flex items-start">
-                    <Clock className="h-6 w-6 text-primary mt-1 mr-3" />
-                    <div>
-                      <h3 className="font-semibold mb-1">Guaranteed 30-Minute Response Time</h3>
-                      <p className="text-muted-foreground">
-                        We guarantee arrival within 30 minutes for all emergency plumbing calls in our service area
-                      </p>
-                    </div>
-                  </div>
                   <div className="flex items-start">
                     <Shield className="h-6 w-6 text-primary mt-1 mr-3" />
                     <div>
@@ -123,7 +114,7 @@ export default function EmergencyRepairsPage() {
 
             {/* Emergency Services List */}
             <div className="bg-muted/30 rounded-2xl p-8">
-              <h2 className="text-3xl font-bold text-center mb-8">Emergency Plumbing Services We Handle 24/7</h2>
+              <h2 className="text-3xl font-bold text-center mb-8">Emergency Plumbing Services We Handle </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
                   "Burst Pipe Emergency Repair",

@@ -10,7 +10,7 @@ export function Header() {
   const [isServicesOpen, setIsServicesOpen] = useState(false)
 
   const services = [
-    { name: "Emergency Repairs", href: "/services/emergency-repairs" },
+    // { name: "Emergency Repairs", href: "/services/emergency-repairs" },
     { name: "Leak Detection", href: "/services/leak-detection" },
     { name: "Pipe Installation", href: "/services/pipe-installation" },
     { name: "Water Heater Service", href: "/services/water-heater" },
@@ -24,7 +24,7 @@ export function Header() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <img className="w-[150px]" src="/tidy_pipes_logo.png" alt="tidy pipes logo"/> 
+            <img className="w-[150px]" src="/tidy_pipes_logo.png" alt="tidy pipes logo" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -62,19 +62,21 @@ export function Header() {
             </Link>
             <div className="flex items-center space-x-4 text-sm text-accent-foreground/80">
               <div className="flex items-center">
+                <a className="flex" href="tel:5855078992">
                 <Phone className="h-4 w-4 mr-1" />
                 <span>(585) 507-8992</span>
+                </a>
               </div>
             </div>
           </nav>
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="cta-button">Emergency Service</Button>
+            <Button className="cta-button">Get Free Quote/Call Us</Button>
           </div>
 
           {/* Mobile menu button */}
-          <button className="md:hidden text-accent-foreground" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          <button className="md:hidden text-accent-foreground p-4 rounded-2xl bg-primary" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </div>
@@ -123,10 +125,14 @@ export function Header() {
                 Contact
               </Link>
               <div className="flex items-center text-sm text-accent-foreground/80">
-                <Phone className="h-4 w-4 mr-1" />
-                <span>(585) 507-8992</span>
+                <a href="tel:5855078992">
+
+                  <Phone className="h-4 w-4 mr-1" />
+                  <span>(585) 507-8992</span>
+                </a>
+
               </div>
-              <Button className="cta-button w-full">Emergency Service</Button>
+              <Button className="cta-button w-full">Emergency Service/Call Us</Button>
             </nav>
           </div>
         )}

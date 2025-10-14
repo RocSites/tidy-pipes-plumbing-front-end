@@ -26,7 +26,7 @@ export function ContactSection() {
                 <div>
                   <h4 className="font-semibold mb-1">Phone</h4>
                   <p className="text-muted-foreground">(585) 507-8992</p>
-                  <p className="text-sm text-muted-foreground">24/7 Emergency Line</p>
+                  <p className="text-sm text-muted-foreground"> Emergency Line</p>
                 </div>
               </div>
 
@@ -59,7 +59,7 @@ export function ContactSection() {
                   <h4 className="font-semibold mb-1">Business Hours</h4>
                   <p className="text-muted-foreground">Mon-Fri: 7:00 AM - 6:00 PM</p>
                   <p className="text-muted-foreground">Sat: 8:00 AM - 4:00 PM</p>
-                  <p className="text-sm text-muted-foreground">Emergency service available 24/7</p>
+                  <p className="text-sm text-muted-foreground">Emergency service available </p>
                 </div>
               </div>
             </div>

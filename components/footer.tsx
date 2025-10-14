@@ -11,15 +11,18 @@ export function Footer() {
               Professional plumbing services you can trust. Licensed, insured, and committed to quality.
             </p>
             <div className="flex items-center text-sm">
-              <Phone className="h-4 w-4 mr-2" />
-              <span>24/7 Emergency: (585) 507-8992</span>
+              <a className="flex" href="tel: 5855078992">
+                <Phone className="h-4 w-4 mr-2" />
+                <span>(585) 507-8992</span>
+              </a>
+
             </div>
           </div>
 
           <div>
             <h3 className="font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-sm text-accent-foreground/80">
-              <li>Emergency Repairs</li>
+              {/* <li>Emergency Repairs</li> */}
               <li>Leak Detection</li>
               <li>Pipe Installation</li>
               <li>Water Heater Service</li>

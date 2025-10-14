@@ -39,10 +39,10 @@ export function HeroSection() {
             </div>
           </div>
           <div className="relative">
-            <div className="aspect-square bg-primary/10 rounded-2xl flex items-center justify-center">
+            <div className="aspect-square bg-primary/10 rounded-2xl flex items-center justify-center mx-0 my-[2em]">
               <img
-                src="/images/plumbing-services.png"
-                alt="Professional plumber at work"
+                src="/nick_van.jpg"
+                alt="Professional plumber at work next to van"
                 className="rounded-xl shadow-lg"
               />
             </div>

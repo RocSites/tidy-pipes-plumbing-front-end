@@ -46,7 +46,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Service Area</h4>
-                  <p className="text-muted-foreground">Greater Metro Area</p>
+                  <p className="text-muted-foreground">Greater Rochester Area</p>
                   <p className="text-sm text-muted-foreground">Within 50 miles of downtown</p>
                 </div>
               </div>

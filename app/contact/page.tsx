@@ -67,7 +67,7 @@ export default function ContactPage() {
                 <MapPin className="h-8 w-8 text-primary" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Service Area</h3>
-              <p className="text-lg font-semibold text-primary mb-2">Greater Metro Area</p>
+              <p className="text-lg font-semibold text-primary mb-2">Greater Rochester Area</p>
               <p className="text-muted-foreground">Within 50 miles of downtown</p>
               <p className="text-sm text-muted-foreground mt-2">Free estimates in our service area</p>
             </div>

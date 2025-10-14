@@ -24,7 +24,7 @@ export function Header() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <img className="w-[100px]" src="/tidy_pipes_logo.png" alt="tidy pipes logo"/> 
+            <img className="w-[150px]" src="/tidy_pipes_logo.png" alt="tidy pipes logo"/> 
           </Link>
 
           {/* Desktop Navigation */}

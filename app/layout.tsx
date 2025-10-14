@@ -4,16 +4,17 @@ import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
+import Script from "next/script"
 import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Tidy Pipes Plumbing - Professional Plumbing Services | Licensed Plumbers",
+  description:
+    "Expert plumbing services in your area. Emergency repairs, leak detection, pipe installation, water heater service. Licensed, insured, and trusted by the community. Call (585) 507-8992.",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
   },
-  description:
-    "Expert plumbing services in your area. Emergency repairs, leak detection, pipe installation, water heater service. Licensed, insured, and trusted by the community. Call (585) 507-8992.",
   keywords: [
     "plumbing services",
     "emergency plumber",
@@ -57,7 +58,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Tidy Pipes Plumbing - Professional Plumbing Services",
-    description: "Expert plumbing services with emergency repairs. Licensed, insured, and trusted.",
+    description:
+      "Expert plumbing services with emergency repairs. Licensed, insured, and trusted.",
     images: ["/images/tidy-pipes-og-image.jpg"],
   },
   robots: {
@@ -74,18 +76,20 @@ export const metadata: Metadata = {
   verification: {
     google: "your-google-verification-code",
   },
-    generator: 'v0.app'
+  generator: "v0.app",
 }
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <head>
-        <script
+      <body
+        className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}
+      >
+        {/* ✅ Structured data for SEO (does not override favicon or metadata) */}
+        <Script
+          id="ld-json"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -161,8 +165,6 @@ export default function RootLayout({
             }),
           }}
         />
-      </head>
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />
       </body>

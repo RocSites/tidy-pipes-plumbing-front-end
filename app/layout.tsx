@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     siteName: "Tidy Pipes Plumbing",
     images: [
       {
-        url: "/images/tidy-pipes-og-image.png",
+        url: "https://tidy-pipes-plumbing-front-end.vercel.app/images/tidy-pipes-og-image.png",
         width: 1200,
         height: 630,
         alt: "Tidy Pipes Plumbing - Professional Plumbing Services",
@@ -55,6 +55,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Tidy Pipes Plumbing - Professional Plumbing Services",

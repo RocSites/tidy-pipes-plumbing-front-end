@@ -1,10 +1,20 @@
-import { Wrench, Droplets, Thermometer, AlertTriangle, Home, Building } from "lucide-react"
+import { Wrench, Droplets, Thermometer, AlertTriangle, Home, Building, Camera } from "lucide-react"
 
 const services = [
   {
+    icon: Thermometer,
+    title: "Water Heater Service & Repair",
+    description: "Water heater installation, repair, and maintenance for all types and brands.",
+  },
+    {
+    icon: Camera,
+    title: "Drain Camera Inspection",
+    description: "High-resolution drain camera inspections to identify blockages, root intrusion, and pipe deterioration with precision and minimal disruption.",
+  },
+  {
     icon: AlertTriangle,
     title: "Emergency Repairs",
-    description: " emergency plumbing services for burst pipes, severe leaks, and urgent repairs.",
+    description: "Emergency plumbing services for burst pipes, severe leaks, and urgent repairs.",
   },
   {
     icon: Droplets,
@@ -16,11 +26,7 @@ const services = [
     title: "Pipe Installation",
     description: "Complete pipe installation and replacement services for residential properties.",
   },
-  {
-    icon: Thermometer,
-    title: "Water Heater Service",
-    description: "Water heater installation, repair, and maintenance for all types and brands.",
-  },
+
   {
     icon: Home,
     title: "Residential Plumbing",

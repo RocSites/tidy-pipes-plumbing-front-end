@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button"
 import { Phone, Clock, Shield } from "lucide-react"
 import { BackgroundIconGrid } from "@/components/background-icon-grid"
+import Link from "next/link"
+
 
 export function HeroSection() {
   return (
@@ -33,14 +35,16 @@ export function HeroSection() {
               </a>
 
 
+              <Link href="/contact">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="border-slate-300 text-slate-700 hover:bg-slate-100 px-8 py-4"
+                >
+                  Get Free Quote
+                </Button>
+              </Link>
 
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-slate-300 text-slate-700 hover:bg-slate-100 px-8 py-4"
-              >
-                Get Free Quote
-              </Button>
             </div>
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 text-sm text-slate-600">
               <div className="flex items-center"><Clock className="h-4 w-4 mr-2" /> Emergency Service</div>
@@ -49,7 +53,7 @@ export function HeroSection() {
           </div>
 
           <div className="mx-auto max-w-md overflow-hidden rounded-2xl shadow-lg">
-            <img src="/nick_van.jpg" alt="Plumber with van" className="w-full h-auto object-cover" />
+            {/* <img src="/nick_van.jpg" alt="Plumber with van" className="w-full h-auto object-cover" /> */}
           </div>
         </div>
       </div>

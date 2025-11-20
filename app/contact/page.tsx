@@ -30,7 +30,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl lg:text-5xl font-bold text-balance mb-4">Contact Tidy Pipes Plumbing</h1>
           <p className="text-xl text-accent-foreground/80 text-pretty max-w-2xl mx-auto">
-            Ready to solve your plumbing problems? We're here to help  with fast, reliable service.
+            Ready to get it fixed? We're here to help  with fast, reliable service.
           </p>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function ContactPage() {
               <h3 className="text-xl font-semibold mb-2">Call Us Now</h3>
               <p className="text-2xl font-bold text-primary mb-2">(585) 507-8992</p>
               <p className="text-muted-foreground"> Emergency Service</p>
-              <p className="text-sm text-muted-foreground mt-2">Average response time: 30 minutes</p>
+              {/* <p className="text-sm text-muted-foreground mt-2">Average response time: 30 minutes</p> */}
             </div>
 
             {/* Email */}
@@ -57,7 +57,7 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
               <p className="text-lg font-semibold text-primary mb-2">info@tidypipesplumbing.com</p>
-              <p className="text-muted-foreground">We respond within 2 hours</p>
+              {/* <p className="text-muted-foreground">We respond within 2 hours</p> */}
               <p className="text-sm text-muted-foreground mt-2">Monday - Friday during business hours</p>
             </div>
 
@@ -146,7 +146,7 @@ export default function ContactPage() {
             {/* General Contact Form */}
             <div className="service-card">
               <h2 className="text-2xl font-semibold mb-6">Send Us a Message</h2>
-              <form className="space-y-4">
+              <form className="space-y-4 mb-6">
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="firstName" className="block text-sm font-medium mb-2">
@@ -199,9 +199,9 @@ export default function ContactPage() {
                   Send Message
                 </Button>
 
-                <p className="text-xs text-muted-foreground text-center">
+                {/* <p className="text-xs text-muted-foreground text-center">
                   * Required fields. We'll respond within 2 hours during business hours.
-                </p>
+                </p> */}
               </form>
             </div>
           </div>

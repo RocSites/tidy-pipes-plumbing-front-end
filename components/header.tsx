@@ -19,16 +19,17 @@ export function Header() {
   return (
     <header className="bg-accent text-accent-foreground border-b border-accent-foreground/20 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
-
+        <div className="flex items-center py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <img className="w-[150px]" src="/tidy_pipes_logo.png" alt="tidy pipes logo" />
           </Link>
 
+          {/* Spacer to push mobile controls right */}
+          <div className="flex-1" />
+
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-
             {/* Services Dropdown */}
             <div
               className="relative"
@@ -64,7 +65,7 @@ export function Header() {
             </Link>
 
             {/* Desktop Phone Number */}
-            <div className="flex items-center space-x-4 text-sm text-accent bg-primary p-[1em] rounded-[1em]">
+            <div className="flex items-center space-x-4 text-sm text-accent bg-primary px-4 py-2 rounded-[1em]">
               <a href="tel:5855078992" className="flex items-center">
                 <Phone className="h-4 w-4 mr-1" />
                 <span>(585) 507-8992</span>
@@ -72,35 +73,30 @@ export function Header() {
             </div>
           </nav>
 
-          {/* Desktop CTA */}
-          {/* <div className="hidden md:block">
-            <Button className="cta-button">Call Us</Button>
-          </div> */}
+          {/* MOBILE CONTROLS (Call + Hamburger) */}
+          <div className="flex items-center gap-2 md:hidden">
+            {/* Mobile Call Button */}
+            <a
+              href="tel:5855078992"
+              className="flex items-center bg-primary text-primary-foreground p-4 rounded-xl shadow-sm"
+            >
+              <Phone className="h-6 w-6" />
+            </a>
 
-          {/* --- MOBILE CALL BUTTON (always visible) --- */}
-          <a
-            href="tel:5855078992"
-            className="md:hidden flex items-center bg-primary text-primary-foreground px-3 py-2 rounded-xl shadow-sm mr-3"
-          >
-            <Phone className="h-4 w-4 mr-1 " />
-            <div>Call Us</div>
-          </a>
-
-          {/* Mobile hamburger */}
-          <button
-            className="md:hidden text-accent p-4 rounded-2xl bg-primary"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
-
+            {/* Mobile hamburger */}
+            <button
+              className="flex items-center justify-center bg-primary text-accent p-4 rounded-xl"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-accent-foreground/20">
             <nav className="flex flex-col space-y-4">
-
               {/* Mobile Services */}
               <div>
                 <button
@@ -144,8 +140,6 @@ export function Header() {
               >
                 Contact
               </Link>
-        
-
             </nav>
           </div>
         )}

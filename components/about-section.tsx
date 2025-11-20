@@ -25,15 +25,14 @@ const features = [
 
 export function AboutSection() {
   return (
-    <section id="about" className="section-padding">
+    <section id="about" className="section-padding mt-15">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl lg:text-4xl font-bold text-balance mb-6">Why Choose Tidy Pipes Plumbing?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-balance mb-6">About Tidy Pipes Plumbing</h2>
             <p className="text-lg text-muted-foreground text-pretty mb-8 leading-relaxed">
-              We're not just another plumbing company. We're your neighbors, committed to providing honest, reliable
-              service that you can count on. Our team of experienced professionals takes pride in delivering quality
-              workmanship and exceptional customer service.
+              At Tidy Pipes Plumbing, we believe every job deserves the same attention to detail as our name implies: tidy, efficient, and done right the first time. Whether you’re dealing with a stubborn clog, a leaking pipe, or an emergency situation, we respond quickly, treat your home with respect, and always leave the workspace clean.</p>
+            <p className="text-lg text-muted-foreground text-pretty mb-8 leading-relaxed">Our customers in Webster, Penfield, and the greater Rochester area know us for professional service, honest pricing, and reliable results you can trust.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6">
@@ -54,7 +53,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="aspect-[4/3] bg-secondary/10 rounded-2xl overflow-hidden">
               <img
-                src="/professional-plumbing-team-at-work.jpg"
+                src="/nick_van.jpg"
                 alt="Tidy Pipes Plumbing team"
                 className="w-full h-full object-cover"
               />

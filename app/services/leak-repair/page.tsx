@@ -133,8 +133,8 @@ export default function LeakRepairPage() {
 
               <div className="relative">
                 <img
-                  src="/professional-plumber-fixing-leak.jpg"
-                  alt="Professional plumber repairing a leaking pipe"
+                  src="/copper_leaking_pipe.jpg"
+                  alt="Leaking copper pipe"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
               </div>

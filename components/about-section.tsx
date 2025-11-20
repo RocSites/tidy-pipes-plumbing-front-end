@@ -9,7 +9,7 @@ const features = [
   {
     icon: Users,
     title: "Experienced Team",
-    description: "Over 15 years of combined experience in residential and commercial plumbing",
+    description: "Over 22 years of combined experience in residential plumbing",
   },
   {
     icon: Clock,

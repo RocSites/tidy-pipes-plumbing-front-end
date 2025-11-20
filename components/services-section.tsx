@@ -14,7 +14,7 @@ const services = [
   {
     icon: Wrench,
     title: "Pipe Installation",
-    description: "Complete pipe installation and replacement services for residential and commercial properties.",
+    description: "Complete pipe installation and replacement services for residential properties.",
   },
   {
     icon: Thermometer,
@@ -26,11 +26,7 @@ const services = [
     title: "Residential Plumbing",
     description: "Complete residential plumbing services including bathrooms, kitchens, and whole-home systems.",
   },
-  {
-    icon: Building,
-    title: "Commercial Plumbing",
-    description: "Professional commercial plumbing services for businesses, offices, and industrial facilities.",
-  },
+
 ]
 
 export function ServicesSection() {

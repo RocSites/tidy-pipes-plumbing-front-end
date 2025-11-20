@@ -151,7 +151,7 @@ export default function AboutPage() {
                     <div>
                       <h3 className="font-semibold mb-2">Experienced Plumbing Team</h3>
                       <p className="text-muted-foreground">
-                        Our team brings over 15 years of combined experience in residential and commercial plumbing,
+                        Our team brings over 22 years of combined experience in residential plumbing,
                         handling everything from routine maintenance to complex installations.
                       </p>
                     </div>

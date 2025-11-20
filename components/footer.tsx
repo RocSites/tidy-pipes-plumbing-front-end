@@ -27,7 +27,6 @@ export function Footer() {
               <li>Pipe Installation</li>
               <li>Water Heater Service</li>
               <li>Residential Plumbing</li>
-              <li>Commercial Plumbing</li>
             </ul>
           </div>
 

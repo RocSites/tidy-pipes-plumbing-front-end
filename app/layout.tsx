@@ -22,7 +22,6 @@ export const metadata: Metadata = {
     "pipe installation",
     "water heater repair",
     "residential plumbing",
-    "commercial plumbing",
     "fully insured plumber",
     "plumbing contractor",
   ],
@@ -100,7 +99,7 @@ export default function RootLayout({
               name: "Tidy Pipes Plumbing",
               image: "https://tidypipesplumbing.com/images/tidy-pipes-logo.jpg",
               description:
-                "Professional plumbing services including emergency repairs, leak repair, pipe installation, and water heater service. Fully insured plumbers serving residential and commercial customers.",
+                "Professional plumbing services including emergency repairs, leak repair, pipe installation, and water heater service. Fully insured plumbers serving residential Rochester customers.",
               url: "https://tidypipesplumbing.com",
               telephone: "(585) 507-8992",
               email: "info@tidypipesplumbing.com",

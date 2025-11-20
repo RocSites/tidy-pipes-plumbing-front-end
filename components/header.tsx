@@ -14,7 +14,6 @@ export function Header() {
     { name: "Pipe Installation", href: "/services/pipe-installation" },
     { name: "Water Heater Service", href: "/services/water-heater" },
     { name: "Residential Plumbing", href: "/services/residential" },
-    { name: "Commercial Plumbing", href: "/services/commercial" },
   ]
 
   return (

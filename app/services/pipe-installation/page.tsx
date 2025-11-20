@@ -22,7 +22,7 @@ export default function PipeInstallationPage() {
                 Professional Pipe Installation & Replacement
               </h1>
               <p className="text-xl text-accent-foreground/80 text-pretty max-w-3xl mx-auto mb-8">
-                Complete pipe installation and replacement services for residential and commercial properties. Quality
+                Complete pipe installation and replacement services for residential properties. Quality
                 materials, expert installation, and lasting results.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -61,13 +61,6 @@ export default function PipeInstallationPage() {
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <Building className="h-6 w-6 text-primary mt-1 mr-3" />
-                    <div>
-                      <h3 className="font-semibold mb-1">Commercial Projects</h3>
-                      <p className="text-muted-foreground">Large-scale commercial and industrial installations</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start">
                     <Shield className="h-6 w-6 text-primary mt-1 mr-3" />
                     <div>
                       <h3 className="font-semibold mb-1">Quality Materials</h3>
@@ -93,7 +86,7 @@ export default function PipeInstallationPage() {
                   { name: "Copper Pipes", description: "Durable and corrosion-resistant for long-term reliability" },
                   { name: "PEX Piping", description: "Flexible and cost-effective for modern installations" },
                   { name: "PVC Pipes", description: "Ideal for drainage and waste water systems" },
-                  { name: "Cast Iron", description: "Heavy-duty pipes for commercial and industrial use" },
+                  { name: "Cast Iron", description: "Heavy-duty pipes for industrial use" },
                   { name: "Galvanized Steel", description: "Strong and durable for high-pressure applications" },
                   { name: "CPVC Pipes", description: "Chemical-resistant for specialized applications" },
                 ].map((pipe, index) => (

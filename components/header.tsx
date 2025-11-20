@@ -10,7 +10,6 @@ export function Header() {
   const [isServicesOpen, setIsServicesOpen] = useState(false)
 
   const services = [
-    // { name: "Emergency Repairs", href: "/services/emergency-repairs" },
     { name: "Leak Detection", href: "/services/leak-detection" },
     { name: "Pipe Installation", href: "/services/pipe-installation" },
     { name: "Water Heater Service", href: "/services/water-heater" },
@@ -22,6 +21,7 @@ export function Header() {
     <header className="bg-accent text-accent-foreground border-b border-accent-foreground/20 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
+
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <img className="w-[150px]" src="/tidy_pipes_logo.png" alt="tidy pipes logo" />
@@ -29,6 +29,7 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
+
             {/* Services Dropdown */}
             <div
               className="relative"
@@ -39,6 +40,7 @@ export function Header() {
                 Services
                 <ChevronDown className="h-4 w-4 ml-1" />
               </button>
+
               {isServicesOpen && (
                 <div className="absolute top-full left-0 w-64 bg-background border border-border rounded-lg shadow-lg py-2 z-50">
                   {services.map((service) => (
@@ -57,34 +59,49 @@ export function Header() {
             <Link href="/about" className="text-accent-foreground hover:text-primary transition-colors">
               About
             </Link>
+
             <Link href="/contact" className="text-accent-foreground hover:text-primary transition-colors">
               Contact
             </Link>
-            <div className="flex items-center space-x-4 text-sm text-accent-foreground/80">
-              <div className="flex items-center">
-                <a className="flex" href="tel:5855078992">
+
+            {/* Desktop Phone Number */}
+            <div className="flex items-center space-x-4 text-sm bg-primary p-[1em] rounded-[1em]">
+              <a href="tel:5855078992" className="flex items-center">
                 <Phone className="h-4 w-4 mr-1" />
                 <span>(585) 507-8992</span>
-                </a>
-              </div>
+              </a>
             </div>
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
-            <Button className="cta-button">Get Free Quote/Call Us</Button>
-          </div>
+          {/* Desktop CTA */}
+          {/* <div className="hidden md:block">
+            <Button className="cta-button">Call Us</Button>
+          </div> */}
 
-          {/* Mobile menu button */}
-          <button className="md:hidden text-accent-foreground p-4 rounded-2xl bg-primary" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          {/* --- MOBILE CALL BUTTON (always visible) --- */}
+          <a
+            href="tel:5855078992"
+            className="md:hidden flex items-center bg-primary text-primary-foreground px-3 py-2 rounded-xl shadow-sm mr-3"
+          >
+            <Phone className="h-4 w-4 mr-1 " />
+            <div>Call Us</div>
+          </a>
+
+          {/* Mobile hamburger */}
+          <button
+            className="md:hidden text-accent-foreground p-4 rounded-2xl bg-primary"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
+
         </div>
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-accent-foreground/20">
             <nav className="flex flex-col space-y-4">
+
               {/* Mobile Services */}
               <div>
                 <button
@@ -92,8 +109,11 @@ export function Header() {
                   onClick={() => setIsServicesOpen(!isServicesOpen)}
                 >
                   Services
-                  <ChevronDown className={`h-4 w-4 transition-transform ${isServicesOpen ? "rotate-180" : ""}`} />
+                  <ChevronDown
+                    className={`h-4 w-4 transition-transform ${isServicesOpen ? "rotate-180" : ""}`}
+                  />
                 </button>
+
                 {isServicesOpen && (
                   <div className="mt-2 ml-4 space-y-2">
                     {services.map((service) => (
@@ -117,6 +137,7 @@ export function Header() {
               >
                 About
               </Link>
+
               <Link
                 href="/contact"
                 className="text-accent-foreground hover:text-primary transition-colors"
@@ -124,15 +145,8 @@ export function Header() {
               >
                 Contact
               </Link>
-              <div className="flex items-center text-sm text-accent-foreground/80">
-                <a href="tel:5855078992">
+        
 
-                  <Phone className="h-4 w-4 mr-1" />
-                  <span>(585) 507-8992</span>
-                </a>
-
-              </div>
-              <Button className="cta-button w-full">Emergency Service/Call Us</Button>
             </nav>
           </div>
         )}

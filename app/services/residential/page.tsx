@@ -58,7 +58,7 @@ export default function ResidentialPage() {
                     <Wrench className="h-6 w-6 text-primary mt-1 mr-3" />
                     <div>
                       <h3 className="font-semibold mb-1">Expert Technicians</h3>
-                      <p className="text-muted-foreground">Licensed plumbers with residential expertise</p>
+                      <p className="text-muted-foreground">Insured plumbers with residential expertise</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -117,7 +117,7 @@ export default function ResidentialPage() {
               <h2 className="text-3xl font-bold text-center mb-12">Why Homeowners Choose Tidy Pipes</h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {[
-                  { title: "Licensed & Insured", description: "Full licensing and insurance for your protection" },
+                  { title: "Fully Insured", description: "Full insurance for your protection" },
                   { title: "Upfront Pricing", description: "No surprises - know the cost before we start" },
                   { title: "Clean & Respectful", description: "We treat your home with care and respect" },
                   { title: "Satisfaction Guaranteed", description: "We stand behind our work 100%" },

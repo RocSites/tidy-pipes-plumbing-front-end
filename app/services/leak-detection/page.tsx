@@ -7,7 +7,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Professional Leak Detection Services | Advanced Technology | Tidy Pipes Plumbing",
   description:
-    "Advanced leak detection services using thermal imaging, acoustic detection, and video inspection. Find hidden leaks before they cause damage. Licensed plumbers with non-invasive technology. Call (585) 507-8992.",
+    "Advanced leak detection services using thermal imaging, acoustic detection, and video inspection. Find hidden leaks before they cause damage. Fully insured plumbers with non-invasive technology. Call (585) 507-8992.",
   keywords: [
     "leak detection",
     "water leak detection",

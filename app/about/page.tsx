@@ -5,13 +5,13 @@ import { Award, Users, Clock, CheckCircle, Phone, Shield, Heart, Star } from "lu
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "About Tidy Pipes Plumbing | Licensed Local Plumbers | 15+ Years Experience",
+  title: "About Tidy Pipes Plumbing | Fully insured Local Plumbers | 15+ Years Experience",
   description:
-    "Learn about Tidy Pipes Plumbing - your trusted local plumbing experts since 2008. Licensed, insured, and committed to honest, reliable service. 5000+ happy customers,  emergency service.",
+    "Learn about Tidy Pipes Plumbing - your trusted local plumbing experts since 2008. Fully insured, and committed to honest, reliable service. 5000+ happy customers,  emergency service.",
   keywords: [
     "about tidy pipes plumbing",
     "local plumbers",
-    "licensed plumbing company",
+    "Fully insured plumbing company",
     "experienced plumbers",
     "trusted plumbing service",
     "plumbing company history",
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     "reliable plumbing service",
   ],
   openGraph: {
-    title: "About Tidy Pipes Plumbing | Licensed Local Plumbers",
+    title: "About Tidy Pipes Plumbing | Fully insured Local Plumbers",
     description:
-      "Your trusted local plumbing experts since 2008. Licensed, insured, and committed to honest, reliable service.",
+      "Your trusted local plumbing experts since 2008. Fully insured, and committed to honest, reliable service.",
     url: "https://tidypipesplumbing.com/about",
     images: ["/images/about-tidy-pipes-og.jpg"],
   },
@@ -61,7 +61,7 @@ export default function AboutPage() {
                 <p className="text-lg text-muted-foreground mb-6">
                   Founded in 2008, Tidy Pipes Plumbing started as a small family business with a simple mission: provide
                   honest, reliable plumbing services to our local community. What began as a one-person operation has
-                  grown into a trusted team of licensed, experienced plumbing professionals.
+                  grown into a trusted team of fully insured, experienced plumbing professionals.
                 </p>
                 <p className="text-lg text-muted-foreground mb-6">
                   We've built our reputation on quality workmanship, fair pricing, and exceptional customer service.
@@ -86,7 +86,7 @@ export default function AboutPage() {
               <div className="relative">
                 <img
                   src="/professional-plumbing-team-at-work.jpg"
-                  alt="Tidy Pipes Plumbing professional team of licensed plumbers at work"
+                  alt="Tidy Pipes Plumbing professional team of fully insured plumbers at work"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
               </div>
@@ -132,16 +132,16 @@ export default function AboutPage() {
             {/* Why Choose Us */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-center mb-12">
-                Why Choose Tidy Pipes Plumbing? Licensed, Experienced, Trusted
+                Why Choose Tidy Pipes Plumbing? Fully Insured, Experienced, Trusted
               </h2>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">
                   <div className="flex items-start">
                     <Award className="h-6 w-6 text-primary mt-1 mr-4" />
                     <div>
-                      <h3 className="font-semibold mb-2">Licensed & Certified Plumbers</h3>
+                      <h3 className="font-semibold mb-2">Fully insured & Certified Plumbers</h3>
                       <p className="text-muted-foreground">
-                        All our plumbers are fully licensed and certified, with ongoing training to stay current with
+                        All our plumbers are fully fully insured and certified, with ongoing training to stay current with
                         the latest plumbing techniques and technologies.
                       </p>
                     </div>

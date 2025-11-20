@@ -8,9 +8,9 @@ import Script from "next/script"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Tidy Pipes Plumbing - Professional Plumbing Services | Licensed Plumbers",
+  title: "Tidy Pipes Plumbing - Professional Plumbing Services | Fully Insured Plumbers",
   description:
-    "Expert plumbing services in your area. Emergency repairs, leak detection, pipe installation, water heater service. Licensed, insured, and trusted by the community. Call (585) 507-8992.",
+    "Expert plumbing services in your area. Emergency repairs, leak detection, pipe installation, water heater service. Fully insured, and trusted by the community. Call (585) 507-8992.",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "water heater repair",
     "residential plumbing",
     "commercial plumbing",
-    "licensed plumber",
+    "fully insured plumber",
     "plumbing contractor",
   ],
   authors: [{ name: "Tidy Pipes Plumbing" }],
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Tidy Pipes Plumbing - Professional Plumbing Services",
     description:
-      "Expert plumbing services with emergency repairs. Licensed, insured, and trusted by the community.",
+      "Expert plumbing services with emergency repairs. Fully insured, and trusted by the community.",
     url: "https://tidypipesplumbing.com",
     siteName: "Tidy Pipes Plumbing",
     images: [
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Tidy Pipes Plumbing - Professional Plumbing Services",
     description:
-      "Expert plumbing services with emergency repairs. Licensed, insured, and trusted.",
+      "Expert plumbing services with emergency repairs. Fully insured, and trusted.",
     images: ["/images/tidy-pipes-og-image.png"],
   },
   robots: {
@@ -100,7 +100,7 @@ export default function RootLayout({
               name: "Tidy Pipes Plumbing",
               image: "https://tidypipesplumbing.com/images/tidy-pipes-logo.jpg",
               description:
-                "Professional plumbing services including emergency repairs, leak detection, pipe installation, and water heater service. Licensed and insured plumbers serving residential and commercial customers.",
+                "Professional plumbing services including emergency repairs, leak detection, pipe installation, and water heater service. Fully insured plumbers serving residential and commercial customers.",
               url: "https://tidypipesplumbing.com",
               telephone: "(585) 507-8992",
               email: "info@tidypipesplumbing.com",

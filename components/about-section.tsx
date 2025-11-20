@@ -3,8 +3,8 @@ import { Award, Users, Clock, CheckCircle } from "lucide-react"
 const features = [
   {
     icon: Award,
-    title: "Licensed & Certified",
-    description: "Fully licensed plumbers with ongoing training and certifications",
+    title: "Insured",
+    description: "Fully insured plumbers with ongoing training and certifications",
   },
   {
     icon: Users,

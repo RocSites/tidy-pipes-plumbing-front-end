@@ -116,10 +116,10 @@ export default function ContactPage() {
                 <div className="service-card">
                   <div className="flex items-center mb-3">
                     <Users className="h-5 w-5 text-primary mr-2" />
-                    <h3 className="font-semibold">Licensed & Insured</h3>
+                    <h3 className="font-semibold">Fully Insured</h3>
                   </div>
                   <p className="text-sm text-muted-foreground">
-                    Fully licensed plumbers with comprehensive insurance coverage.
+                    Fully insured plumbers with comprehensive insurance coverage.
                   </p>
                 </div>
 

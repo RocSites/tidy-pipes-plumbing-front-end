@@ -65,7 +65,7 @@ export function Header() {
             </Link>
 
             {/* Desktop Phone Number */}
-            <div className="flex items-center space-x-4 text-sm bg-primary p-[1em] rounded-[1em]">
+            <div className="flex items-center space-x-4 text-sm text-accent bg-primary p-[1em] rounded-[1em]">
               <a href="tel:5855078992" className="flex items-center">
                 <Phone className="h-4 w-4 mr-1" />
                 <span>(585) 507-8992</span>
@@ -89,7 +89,7 @@ export function Header() {
 
           {/* Mobile hamburger */}
           <button
-            className="md:hidden text-accent-foreground p-4 rounded-2xl bg-primary"
+            className="md:hidden text-accent p-4 rounded-2xl bg-primary"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}

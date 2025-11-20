@@ -62,8 +62,8 @@ export default function CommercialPage() {
                   <div className="flex items-start">
                     <Shield className="h-6 w-6 text-primary mt-1 mr-3" />
                     <div>
-                      <h3 className="font-semibold mb-1">Licensed & Bonded</h3>
-                      <p className="text-muted-foreground">Fully licensed for commercial work with proper bonding</p>
+                      <h3 className="font-semibold mb-1">Insured</h3>
+                      <p className="text-muted-foreground">Fully Insured for commercial work with proper bonding</p>
                     </div>
                   </div>
                   <div className="flex items-start">

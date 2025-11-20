@@ -7,7 +7,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: " Emergency Plumbing Repairs | Tidy Pipes Plumbing",
   description:
-    "Emergency plumbing repairs available . Fast response for burst pipes, severe leaks, and urgent plumbing emergencies. Licensed plumbers with 30-minute response time. Call (585) 507-8992.",
+    "Emergency plumbing repairs available . Fast response for burst pipes, severe leaks, and urgent plumbing emergencies. Fully insured plumbers with 30-minute response time. Call (585) 507-8992.",
   keywords: [
     "emergency plumber",
     " plumbing",
@@ -86,9 +86,9 @@ export default function EmergencyRepairsPage() {
                   <div className="flex items-start">
                     <Shield className="h-6 w-6 text-primary mt-1 mr-3" />
                     <div>
-                      <h3 className="font-semibold mb-1">Licensed & Fully Insured Emergency Plumbers</h3>
+                      <h3 className="font-semibold mb-1">Fully Insured Emergency Plumbers</h3>
                       <p className="text-muted-foreground">
-                        All our emergency technicians are fully licensed, bonded, and insured for your protection
+                        All our emergency technicians are fully insured for your protection
                       </p>
                     </div>
                   </div>
@@ -106,7 +106,7 @@ export default function EmergencyRepairsPage() {
               <div className="relative">
                 <img
                   src="/emergency-plumber-working-on-burst-pipe.jpg"
-                  alt="Licensed emergency plumber repairing burst pipe with professional tools"
+                  alt="Fully insured emergency plumber repairing burst pipe with professional tools"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
               </div>

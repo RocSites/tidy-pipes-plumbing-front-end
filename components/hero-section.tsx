@@ -20,7 +20,7 @@ export function HeroSection() {
             </h1>
             <p className="text-lg sm:text-xl text-slate-700 mb-8 leading-relaxed">
               From emergency repairs to installations, Tidy Pipes Plumbing delivers expert service —
-              licensed and insured.
+              fully insured.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8 justify-center lg:justify-start">
               <a href="tel:5855078992" className="flex w-full">
@@ -44,7 +44,7 @@ export function HeroSection() {
             </div>
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 text-sm text-slate-600">
               <div className="flex items-center"><Clock className="h-4 w-4 mr-2" /> Emergency Service</div>
-              <div className="flex items-center"><Shield className="h-4 w-4 mr-2" /> Licensed & Insured</div>
+              <div className="flex items-center"><Shield className="h-4 w-4 mr-2" /> Insured</div>
             </div>
           </div>
 

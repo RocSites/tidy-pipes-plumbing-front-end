@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <div className="text-2xl font-bold mb-4">Tidy Pipes Plumbing</div>
             <p className="text-accent-foreground/80 mb-4">
-              Professional plumbing services you can trust. Licensed, insured, and committed to quality.
+              Professional plumbing services you can trust. Fully insured and committed to quality.
             </p>
             <div className="flex items-center text-sm">
               <a className="flex" href="tel: 5855078992">
@@ -47,7 +47,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-accent-foreground/20 mt-8 pt-8 text-center text-sm text-accent-foreground/60">
-          <p>&copy; 2025 Tidy Pipes Plumbing. All rights reserved. Licensed & Insured.</p>
+          <p>&copy; 2025 Tidy Pipes Plumbing. All rights reserved. Fully Insured.</p>
         </div>
       </div>
     </footer>

@@ -118,7 +118,7 @@ export default function EmergencyRepairsPage() {
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
                   "Burst Pipe Emergency Repair",
-                  "Severe Water Leak Detection",
+                  "Severe Water Leak Repair",
                   "Blocked Drain Clearing",
                   "Toilet Overflow Cleanup",
                   "Water Heater Emergency Service",

@@ -9,7 +9,7 @@ const services = [
   {
     icon: Droplets,
     title: "Leak Detection & Repair",
-    description: "Advanced leak detection technology to find and fix hidden leaks before they cause damage.",
+    description: "Advanced leak repair technology to find and fix hidden leaks before they cause damage.",
   },
   {
     icon: Wrench,

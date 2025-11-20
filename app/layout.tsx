@@ -10,7 +10,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "Tidy Pipes Plumbing - Professional Plumbing Services | Fully Insured Plumbers",
   description:
-    "Expert plumbing services in your area. Emergency repairs, leak detection, pipe installation, water heater service. Fully insured, and trusted by the community. Call (585) 507-8992.",
+    "Expert plumbing services in your area. Emergency repairs, leak repair, pipe installation, water heater service. Fully insured, and trusted by the community. Call (585) 507-8992.",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   keywords: [
     "plumbing services",
     "emergency plumber",
-    "leak detection",
+    "leak repair",
     "pipe installation",
     "water heater repair",
     "residential plumbing",
@@ -100,7 +100,7 @@ export default function RootLayout({
               name: "Tidy Pipes Plumbing",
               image: "https://tidypipesplumbing.com/images/tidy-pipes-logo.jpg",
               description:
-                "Professional plumbing services including emergency repairs, leak detection, pipe installation, and water heater service. Fully insured plumbers serving residential and commercial customers.",
+                "Professional plumbing services including emergency repairs, leak repair, pipe installation, and water heater service. Fully insured plumbers serving residential and commercial customers.",
               url: "https://tidypipesplumbing.com",
               telephone: "(585) 507-8992",
               email: "info@tidypipesplumbing.com",
@@ -143,8 +143,8 @@ export default function RootLayout({
                     "@type": "Offer",
                     itemOffered: {
                       "@type": "Service",
-                      name: "Leak Detection",
-                      description: "Professional leak detection and repair services",
+                      name: "Leak Repair",
+                      description: "Professional leak repair and repair services",
                     },
                   },
                   {

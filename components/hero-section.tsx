@@ -44,7 +44,7 @@ export function HeroSection() {
             </div>
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 text-sm text-slate-600">
               <div className="flex items-center"><Clock className="h-4 w-4 mr-2" /> Emergency Service</div>
-              <div className="flex items-center"><Shield className="h-4 w-4 mr-2" /> Insured</div>
+              <div className="flex items-center"><Shield className="h-4 w-4 mr-2" /> Fully Insured</div>
             </div>
           </div>
 

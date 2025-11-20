@@ -23,7 +23,7 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-sm text-accent-foreground/80">
               {/* <li>Emergency Repairs</li> */}
-              <li>Leak Detection</li>
+              <li>Leak Repair</li>
               <li>Pipe Installation</li>
               <li>Water Heater Service</li>
               <li>Residential Plumbing</li>

@@ -105,7 +105,7 @@ export function ContactSection() {
                 <select id="service" className="w-full px-3 py-2 border border-input rounded-md bg-background">
                   <option>Select a service</option>
                   <option>Emergency Repair</option>
-                  <option>Leak Detection</option>
+                  <option>Leak Repair</option>
                   <option>Pipe Installation</option>
                   <option>Water Heater Service</option>
                   <option>General Plumbing</option>

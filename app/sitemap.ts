@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/services/leak-detection`,
+      url: `${baseUrl}/services/leak-repair`,
       lastModified: currentDate,
       changeFrequency: "monthly",
       priority: 0.9,

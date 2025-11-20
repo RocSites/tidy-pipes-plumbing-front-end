@@ -8,8 +8,8 @@ const services = [
   },
   {
     icon: Droplets,
-    title: "Leak Detection & Repair",
-    description: "Advanced leak repair technology to find and fix hidden leaks before they cause damage.",
+    title: "Leak Repair",
+    description: "Our licensed plumbers quickly identify the source of the leak and provide the right repair",
   },
   {
     icon: Wrench,

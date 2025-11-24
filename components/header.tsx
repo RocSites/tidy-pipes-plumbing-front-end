@@ -11,7 +11,7 @@ export function Header() {
 
   const services = [
     { name: "Water Heater Service & Repair", href: "/services/water-heater" },
-    { name: "Drain Camera Inspection", href: "/services/leak-repair" },
+    { name: "Drain Camera Inspection", href: "/services/drain-camera-inspection" },
     { name: "Emergency Repairs & Leak Repair", href: "/services/leak-repair" },
     { name: "Pipe Installation", href: "/services/pipe-installation" },
     { name: "Residential Plumbing", href: "/services/residential" }

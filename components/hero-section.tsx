@@ -13,10 +13,10 @@ export function HeroSection() {
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white">
+            <h1 className="text-4xl sm:text-5xl text-left lg:text-6xl font-bold mb-6 leading-tight text-white">
               Professional Plumbing Services You Can Trust
             </h1>
-            <p className="text-lg sm:text-xl text-white/90 mb-8 leading-relaxed">
+            <p className="text-lg sm:text-xl text-left text-white/90 mb-8 leading-relaxed">
               From emergency repairs to installations, Tidy Pipes Plumbing delivers expert service —
               fully insured.
             </p>

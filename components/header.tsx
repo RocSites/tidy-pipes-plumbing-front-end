@@ -10,10 +10,11 @@ export function Header() {
   const [isServicesOpen, setIsServicesOpen] = useState(false)
 
   const services = [
-    { name: "Leak Repair", href: "/services/leak-repair" },
+    { name: "Water Heater Service & Repair", href: "/services/water-heater" },
+    { name: "Drain Camera Inspection", href: "/services/leak-repair" },
+    { name: "Emergency Repairs & Leak Repair", href: "/services/leak-repair" },
     { name: "Pipe Installation", href: "/services/pipe-installation" },
-    { name: "Water Heater Service", href: "/services/water-heater" },
-    { name: "Residential Plumbing", href: "/services/residential" },
+    { name: "Residential Plumbing", href: "/services/residential" }
   ]
 
   return (

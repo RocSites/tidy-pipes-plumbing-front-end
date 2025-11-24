@@ -39,8 +39,8 @@ export function ServicesSection() {
   return (
     <section id="services" className="section-padding bg-muted/30 mt-[2em]">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-balance m-4">Complete Plumbing Solutions</h2>
+        <div className="text-left mb-16 md:text-center">
+          <h2 className="text-3xl lg:text-4xl font-bold text-balance">Complete Plumbing Solutions</h2>
           <p className="text-xl text-muted-foreground text-pretty max-w-2xl mx-auto">
             From routine maintenance to emergency repairs, we provide comprehensive plumbing services to keep your
             property running smoothly.

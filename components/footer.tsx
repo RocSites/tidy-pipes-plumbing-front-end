@@ -1,4 +1,6 @@
 import { Phone, Mail, MapPin } from "lucide-react"
+import Link from "next/link"
+
 
 export function Footer() {
   return (
@@ -21,13 +23,14 @@ export function Footer() {
 
           <div>
             <h3 className="font-semibold mb-4">Services</h3>
-            <ul className="space-y-2 text-sm text-accent-foreground/80">
+            <div className="flex flex-col space-y-2 text-sm text-accent-foreground/80">
               {/* <li>Emergency Repairs</li> */}
-              <li>Leak Repair</li>
-              <li>Pipe Installation</li>
-              <li>Water Heater Service</li>
-              <li>Residential Plumbing</li>
-            </ul>
+              <Link href="/services/water-heater">Water Heater Service & Repair</Link>
+              <Link href="/services/drain-camera-inspection">Drain Camera Inspection</Link>
+              <Link href="/services/leak-repair">Emergency Repairs & Leak Repair</Link>
+              <Link href="/services/pipe-installation">Pipe Installation</Link>
+              <Link href="/services/residential">Residential Plumbing</Link>
+            </div>
           </div>
 
           <div>

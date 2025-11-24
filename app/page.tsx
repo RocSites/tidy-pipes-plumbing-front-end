@@ -10,8 +10,8 @@ export default function Home() {
     <>
       <Header />
       <main className="bg-white">
+        <HeroSection />
         <div className="px-4 sm:px-6 lg:px-8 py-10 sm:py-16 lg:py-20">
-          <HeroSection />
           <ServicesSection />
           <AboutSection />
           {/* <ContactSection /> */}

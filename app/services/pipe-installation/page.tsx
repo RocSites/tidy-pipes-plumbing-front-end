@@ -104,7 +104,7 @@ export default function PipeInstallationPage() {
             {/* Installation Process */}
             <div>
               <h2 className="text-3xl font-bold text-center mb-12">Our Installation Process</h2>
-              <div className="grid md:grid-cols-4 gap-8">
+              <div className="grid md:grid-cols-4 gap-8 mb-9">
                 {[
                   { step: "1", title: "Assessment", description: "Thorough evaluation of your plumbing needs" },
                   { step: "2", title: "Planning", description: "Detailed installation plan and material selection" },
@@ -125,7 +125,7 @@ export default function PipeInstallationPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-primary/10 section-padding">
+        <section className="bg-primary/10 section-padding pb-6 pt-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Start Your Project?</h2>
             <p className="text-lg text-muted-foreground mb-8">

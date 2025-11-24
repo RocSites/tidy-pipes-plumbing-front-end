@@ -115,7 +115,7 @@ export default function ResidentialPage() {
             {/* Why Choose Us */}
             <div>
               <h2 className="text-3xl font-bold text-center mb-12">Why Homeowners Choose Tidy Pipes</h2>
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-9">
                 {[
                   { title: "Fully Insured", description: "Full insurance for your protection" },
                   { title: "Upfront Pricing", description: "No surprises - know the cost before we start" },
@@ -136,7 +136,7 @@ export default function ResidentialPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-primary/10 section-padding">
+        <section className="bg-primary/10 section-padding pt-6 pb-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Improve Your Home's Plumbing?</h2>
             <p className="text-lg text-muted-foreground mb-8">

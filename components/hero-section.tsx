@@ -35,7 +35,7 @@ export function HeroSection() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-white/80 text-accent hover:bg-white/10 px-8 py-4"
+                  className="w-full border-white/80 text-accent hover:bg-white/10 px-8 py-4"
                 >
                   Get Free Quote
                 </Button>

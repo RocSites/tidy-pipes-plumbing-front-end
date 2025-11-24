@@ -77,9 +77,9 @@ export default function ResidentialPage() {
                   </div>
                 </div>
               </div>
-              <div className="relative">
+              <div className="relative mt-9">
                 <img
-                  src="/residential-plumbing-work-in-modern-home.jpg"
+                  src="/p-trap_logo.jpg"
                   alt="Residential plumbing service in home"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />

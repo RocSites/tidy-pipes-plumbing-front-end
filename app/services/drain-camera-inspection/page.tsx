@@ -60,7 +60,7 @@ export default function DrainCameraInspectionPage() {
           </div>
         </section>
 
-        <section className="section-padding">
+        <section className="section-padding mt-9">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
               <div>

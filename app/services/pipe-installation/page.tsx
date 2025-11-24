@@ -69,9 +69,9 @@ export default function PipeInstallationPage() {
                   </div>
                 </div>
               </div>
-              <div className="relative">
+              <div className="relative mt-9">
                 <img
-                  src="/professional-pipe-installation-work.jpg"
+                  src="/pipes_2.jpg"
                   alt="Professional pipe installation in progress"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />

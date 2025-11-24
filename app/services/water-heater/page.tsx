@@ -75,9 +75,9 @@ export default function WaterHeaterPage() {
                   </div>
                 </div>
               </div>
-              <div className="relative">
+              <div className="relative mt-9">
                 <img
-                  src="/water-heater-installation-by-professional-plumber.jpg"
+                  src="/tankless_water_heater.jpg"
                   alt="Professional water heater installation"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />

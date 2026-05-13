@@ -3,6 +3,7 @@ import Link from "next/link"
 
 
 export function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-accent text-accent-foreground">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -49,7 +50,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-accent-foreground/20 mt-8 pt-8 text-center text-sm text-accent-foreground/60">
-          <p>&copy; 2025 Tidy Pipes Plumbing. All rights reserved. Fully Insured.</p>
+          <p>&copy; {currentYear} Tidy Pipes Plumbing. All rights reserved. Fully Insured.</p>
         </div>
       </div>
     </footer>
